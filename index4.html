@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แนะนำตัว -  ศุภณัฐ ใยขาว</title>
+    <!-- อย่าลืมลิ้งก์ไฟล์ CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>ข้อมูลส่วนตัว</h1>
+    
+    <!-- นำรูปโปรไฟล์และข้อมูลส่วนตัวมาจัด Layout ในรูปแบบ Table -->
+    <table>
+        <tr>
+            <!-- ส่วนรูปภาพ (ทำเป็นวงกลม) -->
+            <!-- Challenge: ทำให้รูปกับ Text ห่างกันโดยใช้ padding-right -->
+            <td style="padding-right: 40px;">
+                <img src="profile.png" alt="รูปโปรไฟล์ของดริค" width="250" style="height: 250px; border-radius: 50%; object-fit: cover;">
+            </td>
+            
+            <!-- ส่วนข้อมูลส่วนตัว -->
+            <td>
+                <p><strong>ชื่อ-นามสกุล:</strong> นายศุภณัฐ ใยขาว</p>
+                <p><strong>ตำแหน่ง:</strong> นักศึกษา</p>
+                <p><strong>สาขาวิชา:</strong> วิศวกรรมคอมพิวเตอร์ (CAI)</p>
+                <p><strong>สถาบันการศึกษา:</strong> สถาบันการจัดการปัญญาภิวัฒน์</p>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- ใช้ ul เพื่อบอกสิ่งที่ชอบทาน 3 อย่าง -->
+    <h2>อาหารที่ชอบทาน</h2>
+    <ul>
+        <li>ข้าวผัดกะเพราหมูกรอบ</li>
+        <li>ชาบูนํ้าดำ</li>
+        <li>ซูชิ</li>
+    </ul>
+
+    <hr>
+
+    <!-- ส่วน About me (ประวัติสั้นๆ) -->
+    <h2>About Me (เกี่ยวกับตัวฉัน)</h2>
+    <p>อยากเรียนเพื่อให้เข้าใจภาพรวมทั้งหมดและสามารถสร้างเว็บแอปพลิเคชันได้ครบจบด้วยตัวเองตั้งแต่หน้าบ้านยันหลังบ้านครับ หวังว่าจะสามารถสร้าง Web Application ที่ใช้งานได้จริง</p>
+
+    <hr>
+
+    <!-- ส่วน Skill และระดับพลัง ใช้ Table 4 คอลัมน์ -->
+    <h2>Skills (ทักษะความสามารถ)</h2>
+    <table style="width: 50%; text-align: left;">
+        <tr>
+            <td>Java Programming</td>
+            <td>⭐⭐⭐</td>
+            <td>English</td>
+            <td>⭐⭐</td>
+        </tr>
+        <tr>
+            <td>SQL Database</td>
+            <td>⭐⭐⭐⭐</td>
+            <td>HTML & CSS</td>
+            <td>⭐⭐⭐⭐</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- ส่วน Experience ใช้ Table -->
+    <h2>Experience (ประสบการณ์การทำงาน)</h2>
+    <table border="1" style="border-collapse: collapse; width: 60%; text-align: center;">
+        <tr style="background-color: #333; color: white;">
+            <th>Year</th>
+            <th>Work Place</th>
+        </tr>
+        <tr>
+            <td>2025 - Present</td>
+            <td>สถาบันการจัดการปัญญาภิวัฒน์ (นักศึกษา)</td>
+        </tr>
+        <tr>
+            <td>2026</td>
+            <td>พนักงาน 7-Eleven (Part-time)</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <br><br><br>
+
+    <!-- ส่วน Footer ใส่ Link Github และ contact.html -->
+    <footer>
+        <hr>
+        <p><strong>ลิงก์ที่เกี่ยวข้อง:</strong> 
+            <a href="https://github.com/" target="_blank">My GitHub</a> | 
+            <a href="https://www.w3schools.com/howto/howto_css_contact_form.asp">Contact HTML</a>
+        </p>
+    </footer>
+
+</body>
+</html>
